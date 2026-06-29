@@ -1,0 +1,51 @@
+:root {
+  /* Canvas */
+  --bg:        #0D0D0D;
+  --surface:   #141414;
+  --surface-2: #1C1C1C;
+  --border:    #2A2A2A;
+  --border-2:  #3A3A3A;
+
+  /* BMW M brand colors */
+  --blue:        #1C69D4;
+  --blue-hover:  #2878E8;
+  --blue-dark:   #1558B8;
+  --purple:      #6B3F8C;
+  --red:         #CC1100;
+  --red-hover:   #E01200;
+
+  /* Text */
+  --text-primary:   #FFFFFF;
+  --text-secondary: #ABABAB;
+  --text-muted:     #606060;
+
+  /* Typography */
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body:    'Inter', sans-serif;
+
+  /* Spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;
+  --sp-10: 128px;
+
+  /* Layout */
+  --max-w:  1200px;
+  --pad-x:  clamp(20px, 5vw, 48px);
+
+  /* Radius */
+  --r-sm: 3px;
+  --r-md: 6px;
+  --r-lg: 12px;
+
+  /* Easing */
+  --ease:     cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
