@@ -66,7 +66,7 @@ function About() {
               <RevealSection>
                 <MStripeSmall />
                 <p className="about-story-intro">
-                  Doug Machado didn't just end up working on BMWs. He chose them — and he's
+                  Doug Machado didn't just end up working on BMWs. He chose them. And he's
                   never looked back.
                 </p>
               </RevealSection>
@@ -75,22 +75,22 @@ function About() {
                 <div className="about-story-body">
                   <p>
                     Doug started wrenching on BMWs because he genuinely loved them. Not as
-                    transportation — as machines. The engineering. The feel of a well-sorted
+                    transportation. As machines. The engineering. The feel of a well-sorted
                     suspension. The way a proper BMW sounds when everything is right. That love
                     turned into a career path, and that career path led to BMW's Master Technician
-                    certification — the highest level a BMW tech can hold.
+                    certification. The highest level a BMW tech can hold.
                   </p>
                   <p>
                     DM Performance came from a simple idea: BMW owners in New Jersey deserved
                     a shop run by someone who actually cared. Not a dealership that treats your
                     car like a number. Not a general shop that learned BMW on your dime. A
-                    specialist — someone who has worked on every BMW model, knows every common
+                    specialist. Someone who has worked on every BMW model, knows every common
                     failure point, and takes real pride in getting it right.
                   </p>
                   <p>
                     Outside the shop, Doug is building and competing in his E46 M3 drift car.
                     He's been to Formula Drift events. He builds race cars on weekends because
-                    BMW is not just how he earns a living — it's how he lives. That's the
+                    BMW is not just how he earns a living. It's how he lives. That's the
                     difference you feel when you bring your BMW to DM Performance.
                   </p>
                   <p>

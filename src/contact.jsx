@@ -62,7 +62,7 @@ function Contact() {
                   <div className="contact-info-icon">📍</div>
                   <div>
                     <div className="contact-info-label">Location</div>
-                    <div className="contact-info-value">Wrightstown, NJ — address provided at booking</div>
+                    <div className="contact-info-value">Wrightstown, NJ. Address provided at booking.</div>
                   </div>
                 </div>
                 <div className="contact-info-item" style={{justifyContent: 'center'}}>

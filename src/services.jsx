@@ -130,7 +130,7 @@ function Services() {
             Everything<br/>Your BMW<br/>Needs.
           </h1>
           <p className="page-header-sub">
-            One shop. One specialty. From routine maintenance to full race builds —
+            One shop. One specialty. From routine maintenance to full race builds.
             DM Performance handles it all, and handles it right.
           </p>
         </div>
@@ -223,7 +223,7 @@ function Services() {
           </h2>
           <p className="cta-strip-sub">
             If it's a BMW and it needs work, reach out. We'll tell you straight whether
-            we can help — and we almost always can.
+            we can help. And we almost always can.
           </p>
           <div className="cta-strip-actions">
             <a href="/contact" className="btn btn-primary btn-lg">Get a Quote</a>

@@ -51,8 +51,8 @@ function Home() {
               </h1>
 
               <p className="hero-sub">
-                Doug Machado and his certified team handle everything your BMW needs —
-                from routine maintenance to full performance builds. Master certified.
+                Doug Machado and his certified team handle everything your BMW needs.
+                From routine maintenance to full performance builds. Master certified.
                 Built different.
               </p>
 
@@ -113,7 +113,7 @@ function Home() {
               {
                 num: '01',
                 title: 'Maintenance & Repair',
-                body: 'Oil service, brakes, cooling, timing, electrical — everything your BMW needs to run right.',
+                body: 'Oil service, brakes, cooling, timing, electrical. Everything your BMW needs to run right.',
                 tags: ['Oil Service', 'Brakes', 'Diagnostics', 'VANOS'],
               },
               {
@@ -167,7 +167,7 @@ function Home() {
               {
                 num: '#01',
                 title: 'Master Certified',
-                body: 'Doug holds BMW\'s highest technician certification. This isn\'t a general shop that happens to see BMWs occasionally — every car that comes through is handled by someone who truly specializes.',
+                body: 'Doug holds BMW\'s highest technician certification. This isn\'t a general shop that happens to see BMWs occasionally. Every car that comes through is handled by someone who truly specializes.',
               },
               {
                 num: '#02',
@@ -177,7 +177,7 @@ function Home() {
               {
                 num: '#03',
                 title: 'BMW Only',
-                body: 'Every tool, every part, every bit of knowledge in this shop is focused on one brand. That focus isn\'t a limitation — it\'s exactly why your BMW gets better care here than anywhere else.',
+                body: 'Every tool, every part, every bit of knowledge in this shop is focused on one brand. That focus isn\'t a limitation. It\'s exactly why your BMW gets better care here than anywhere else.',
               },
             ].map((w, i) => (
               <RevealSection key={w.num} delay={i + 1}>
@@ -239,15 +239,15 @@ function Home() {
 
               <RevealSection delay={1}>
                 <p className="meet-body">
-                  Doug Machado started working on BMWs because he loved them — the engineering,
+                  Doug Machado started working on BMWs because he loved them. The engineering,
                   the feel, the culture. That passion turned into a career when he earned BMW's
                   Master Technician certification, the highest level a BMW tech can achieve.
                 </p>
                 <p className="meet-body">
-                  Today, DM Performance is his shop — where customers bring their BMWs knowing
-                  the person touching their car genuinely gives a damn. Outside the shop, Doug
-                  is behind the wheel of his E46 M3 drift car. For him, BMW isn't just work.
-                  It's everything.
+                  Today, DM Performance is his shop. Customers bring their BMWs knowing
+                  the person working on their car takes real pride in getting it right. Outside
+                  the shop, Doug is behind the wheel of his E46 M3 drift car. For him, BMW
+                  isn't just work. It's everything.
                 </p>
               </RevealSection>
 
