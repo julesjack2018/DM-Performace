@@ -84,6 +84,22 @@ var SERVICE_GROUPS = [
     ],
   },
   {
+    icon: '💻',
+    title: 'ECU Tuning & Dealer Services',
+    items: [
+      'Custom ECU tuning (dyno & street)',
+      'Bootmod3 license & flash (authorized dealer)',
+      'Femto data logging & analysis',
+      'Transmission custom tuning',
+      'XHP transmission flash (sport, sport+, race modes)',
+      'Ethanol / E85 tuning & fuel system setup',
+      'Flex fuel sensor installation',
+      'Stage 1, 2 & 3 tune packages',
+      'Remote tune support',
+      'Data logging review & calibration',
+    ],
+  },
+  {
     icon: '🏁',
     title: 'Race & Drift Builds',
     items: [
@@ -147,6 +163,50 @@ function Services() {
               </RevealSection>
             );
           })}
+        </div>
+      </section>
+
+      <MStripe />
+
+      {/* ── Authorized Dealer Badges ── */}
+      <section className="section-sm">
+        <div className="container">
+          <div style={{textAlign: 'center', marginBottom: 'var(--sp-6)'}}>
+            <MStripeSmall />
+            <h2 className="display-md" style={{marginTop: 'var(--sp-4)'}}>Authorized Dealer</h2>
+            <p style={{color: 'var(--text-secondary)', fontSize: '15px', marginTop: 'var(--sp-3)', maxWidth: '480px', margin: 'var(--sp-3) auto 0'}}>
+              DM Performance is an authorized dealer and installer for the industry's top BMW tuning platforms.
+            </p>
+          </div>
+          <div style={{display: 'flex', gap: 'var(--sp-4)', justifyContent: 'center', flexWrap: 'wrap'}}>
+            {[
+              { name: 'Bootmod3', desc: 'Authorized Dealer & Installer', detail: 'License sales + flash + tune' },
+              { name: 'XHP', desc: 'Transmission Flash Specialist', detail: 'Sport, Sport+, Race modes' },
+              { name: 'Ethanol / E85', desc: 'Authorized Distributor', detail: 'Flex fuel setups & tuning' },
+              { name: 'Femto', desc: 'Data Logging & Analysis', detail: 'Advanced BMW diagnostics' },
+            ].map(function(badge) {
+              return (
+                <div key={badge.name} style={{
+                  background: 'var(--surface)',
+                  border: '1px solid var(--border)',
+                  borderRadius: 'var(--r-md)',
+                  padding: 'var(--sp-5) var(--sp-6)',
+                  minWidth: '200px',
+                  flex: '1',
+                  maxWidth: '260px',
+                  textAlign: 'center',
+                }}>
+                  <div style={{
+                    width: '10px', height: '10px', borderRadius: '50%',
+                    background: 'var(--blue)', margin: '0 auto var(--sp-3)',
+                  }}></div>
+                  <div style={{fontFamily: 'var(--font-display)', fontSize: '20px', fontWeight: '700', textTransform: 'uppercase', marginBottom: 'var(--sp-1)'}}>{badge.name}</div>
+                  <div style={{fontSize: '12px', fontWeight: '600', letterSpacing: '0.08em', color: 'var(--blue)', textTransform: 'uppercase', marginBottom: 'var(--sp-2)'}}>{badge.desc}</div>
+                  <div style={{fontSize: '13px', color: 'var(--text-muted)'}}>{badge.detail}</div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </section>
 

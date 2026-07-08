@@ -118,6 +118,10 @@ function Contact() {
                       <option value="maintenance">Maintenance &amp; Repair</option>
                       <option value="performance">Performance Upgrade</option>
                       <option value="engine">Engine Work</option>
+                      <option value="tuning">ECU / Custom Tuning</option>
+                      <option value="bootmod3">Bootmod3 License &amp; Flash</option>
+                      <option value="xhp">Transmission Tuning (XHP)</option>
+                      <option value="ethanol">Ethanol / E85 Setup</option>
                       <option value="race">Race / Drift Build</option>
                       <option value="diagnostic">Diagnostic / Check Engine</option>
                       <option value="inspection">Pre-Purchase Inspection</option>
@@ -213,12 +217,19 @@ function Contact() {
               </div>
 
               <div className="contact-info-card">
-                <div className="contact-info-title">Online Booking</div>
-                <p style={{fontSize: '14px', color: 'var(--text-secondary)', lineHeight: '1.65'}}>
-                  Online booking via our appointment system is available.
-                  Fill out the form, or call/text us directly to get on the schedule fast.
+                <div className="contact-info-title">Book Online</div>
+                <p style={{fontSize: '14px', color: 'var(--text-secondary)', lineHeight: '1.65', marginBottom: 'var(--sp-4)'}}>
+                  Schedule your appointment directly through our booking system — pick your date and service in minutes.
                 </p>
-                {/* TODO: Paste Shop Monkey booking widget embed code here when available */}
+                <a
+                  href="https://app.shopmonkey.cloud/public/scheduler/63b8709cad02080026526cd8"
+                  target="_blank"
+                  rel="noopener"
+                  className="btn btn-primary"
+                  style={{width: '100%', justifyContent: 'center'}}
+                >
+                  Book an Appointment →
+                </a>
               </div>
 
               <div className="contact-info-card" style={{background: 'var(--bg)', border: '1px solid var(--border)'}}>
