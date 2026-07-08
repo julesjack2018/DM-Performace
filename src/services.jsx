@@ -130,7 +130,7 @@ function Services() {
             Everything<br/>Your BMW<br/>Needs.
           </h1>
           <p className="page-header-sub">
-            One shop. One specialty. From a $60 oil change to a full drift build —
+            One shop. One specialty. From routine maintenance to full race builds —
             DM Performance handles it all, and handles it right.
           </p>
         </div>
